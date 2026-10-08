@@ -4,6 +4,7 @@ import Navbar from "@/components/Navbar";
 import ProgressBar from "@/components/ProgressBar"; 
 import Formulario from "@/components/formulario";
 import Timer from "@/components/Timer";
+import PasswordGenerator from "@/components/PasswordGenerator";
 
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
       <ProgressBar />
       <Formulario />
       <Timer />
+      <PasswordGenerator />
     </>
   );
 }
